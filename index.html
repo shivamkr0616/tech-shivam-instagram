@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech Shivam - Instagram Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📸 Tech Shivam</h1>
+    <p>Download Instagram Reel/Image after subscribing</p>
+
+    <input type="text" id="instaURL" placeholder="Paste Instagram URL here">
+    <br>
+    <button onclick="showSubscribe()">Continue</button>
+
+    <div id="subscribeBox" style="display:none;">
+      <p>🎯 First, Subscribe to our YouTube Channel:</p>
+      <a href="https://youtu.be/LWu1I1aJCkw?si=eC-CKqV_tnKsjHlf" target="_blank">
+        <button class="subscribe-btn">Subscribe Now</button>
+      </a>
+      <br><br>
+      <button onclick="downloadNow()">I Subscribed, Continue</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
